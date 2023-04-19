@@ -1,3 +1,5 @@
+#Required pg_dump.exe in SAFEQ_HOME\PGSQL\bin\
+
 $backupDirectory = "" #complete with local backup directory (ex. C:\backup\postgresql_backup)
 $onlineDirectory = "" #complete with online backup directory (ex. \\192.168.0.0\backup_servers\postgresql_backup)
 
