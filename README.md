@@ -10,4 +10,4 @@ This script is used to backup two PostgreSQL databases, `SQDB6` and `SQDB6_IMS`,
 - Set the local backup directory by providing the path to the `$backupDirectory` variable. For example, `$backupDirectory = "C:\backup\postgresql_backup"`.
 - Set the online backup directory by providing the path to the `$onlineDirectory` variable. For example, `$onlineDirectory = "\\192.168.0.0\backup_servers\postgresql_backup"`.
 - Check if the `$env:SAFEQ_HOME` is set to the PostgreSQL installation directory.
-- Provide the password in file "%APPDATA%\postgresql\pgpass.conf".
+- Provide the password in file `%APPDATA%\postgresql\pgpass.conf`.
