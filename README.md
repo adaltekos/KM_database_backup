@@ -4,6 +4,7 @@
 This script is used to backup two PostgreSQL databases, `SQDB6` and `SQDB6_IMS`, and copy the backup files to a local and online backup directory. It also deletes backup files that are older than 7 days in the local directory and older than 7 days and were not created on Sundays or older than 90 days in the online directory.
 
 ## Prerequisites
+- PowerShell version 3.0 or later.
 - Have access to pg_dump.exe
 
 ## Configuration
